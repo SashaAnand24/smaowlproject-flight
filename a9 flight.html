@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#depart{height: 50px;width: 200px}
+        #arrival{height: 50px;width: 200px}
+      
+  body{background-image: url(https://webgradients.com/public/webgradients_png/049%20Fresh%20Milk.png);} 
+
+a{text-decoration: none;}
+label{font-weight: bold;}
+    button{background-color: rgb(238, 211, 221 );} 
+   body{background-image: url(https://webgradients.com/public/webgradients_png/049%20Fresh%20Milk.png);} 
+   input,option,select{color: rgb(242, 215, 213 );}
+   ::placeholder { /* Firefox, Chrome, Opera */ 
+    color: rgb(204, 156, 174  ); 
+
+	</style>
+</head>
+<body>
+	<h1>flights!</h1>
+	<div style="margin-right: 500px;margin-left: 500px;margin-top: 50px;padding-left: 50px; >
+<"form:"method="post">
+	<h3>find and book your airline tickets here!</h3>
+	<label>round trip </label>
+<input type="radio" name="round trip" id="rt">
+    <label>one way </label>
+ <input type="radio" name="oneway" id="ow">
+ <button>baggage and optional fees</button>
+ <br>
+ <label for="depart">depart</label>
+ <br>
+<input type="text" name="airport" id="depart" placeholder="enter an airport">
+<br>
+<label for="arrival">arrival</label>
+ <br>
+<input type="text" name="airport" id="arrival" placeholder="enter an airport">
+  <br>
+  <label for="ddate">depart date</label>
+<br>
+<input type="date" name="depart date" id="ddate" >
+<br>
+<label for="rdate">return date</label>
+<br>
+<input type="date" name="return date" id="rdate">
+<br>
+<label for="passengers">passengers</label>
+<select>
+	 <option>1</option>
+     <option>2</option>
+     <option>3</option>
+     <option>4</option>
+     <option>5</option>
+     <option>6</option>
+     <option>7</option>
+     <option>8</option>
+     <option>9</option>
+
+
+</select>
+<p style="font-size: 15px">ages 2+</p>
+
+<label for="pc">promo code</label>
+<br>
+<input type="text" name="promo code" id="pc" placeholder="enter promo code here">
+<br>
+<br>
+<br>
+<button>check-in</button>
+ <button>flight status</button>
+ <button>change/cancel</button>
+<br>
+<br>
+<button><a href="">search</a></button>
+
+
+
+
+
+
+
+</form>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript">
+	
+
+  $(window).on('beforeunload', function(){
+var c=confirm();
+if(c){
+  return true;
+}
+else
+return false;
+});
+
+
+
+</script>

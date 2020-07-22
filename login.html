@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	label{font-weight: bold;}
+    button{background-color: rgb(238, 211, 221 );} 
+   body{background-image: url(https://webgradients.com/public/webgradients_png/049%20Fresh%20Milk.png);} 
+   input,option,select{color: rgb(242, 215, 213 );}
+   ::placeholder { /* Firefox, Chrome, Opera */ 
+    color: rgb(204, 156, 174  ); 
+    
+</style>
+
+
+
+	</style>
+</head>
+<body >
+	<div style="margin-right: 500px;margin-left: 500px;margin-top: 50px;padding-left: 50px">
+<form method="post">
+	<h1>say hello!</h1>
+<label for="name">your name</label>	
+<br>
+<input type="text" name="name" id="fname" placeholder="enter your name here">
+<br>
+<label for="age"> your age</label>
+<br>
+<input type="text" name="age" id="age" placeholder="enter your age here">
+<br>
+<label for="gender">your gender</label>
+<br>
+<select>
+	<option value="female">female</option>
+	<option value="male">male</option>
+    <option value="custom">other</option>
+
+</select>
+<br>
+<label for="dob">date of birth </label>
+<br>
+<input type="date" name="dob" id="dob" placeholder="enter your date of birth here">
+<br>
+<label for="email">your email</label>
+<br>
+<input type="text" name="email" id="email" placeholder="enter your email here">
+<br>
+<label for="username">username</label>
+<br>
+<input type="text" name="username" id="username" placeholder="enter your username here">
+<br>
+<label for="password">password</label>
+<br>
+<input type="password" name="pswrd" id="pswrd" placeholder="enter your password here">
+<br>
+<label for="cpswrd"> confirm your password</label>
+<br>
+<input type="password" name="cpswrd" id="cpswrd" placeholder="confirm your password here">
+<br>
+<br>
+<button >sign up -> </button>
+
+
+
+
+</form>
+</div>
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript">
+  $(window).on('beforeunload', function(){
+var c=confirm();
+if(c){
+  return true;
+}
+else
+return false;
+});
+</script>
